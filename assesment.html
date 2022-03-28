@@ -8,33 +8,35 @@
 
   <body>
 
-    <h2>TEXT</h2>
-    <p> <strong>Lorem</strong> ipsum dolor sit met, connectur adipiscing elit. Sed<br>
-  	Bland, eros sit amet euismond tincidunt, nisl leo vestiulum dui, sed<br>
-  	tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt<br>
-  	Ex at, venenatis nisl.  </p>
-  	<div>
+    <div id ="Text">
+      <h2>TEXT</h2>
+        <p> <strong>Lorem</strong> ipsum dolor sit met, connectur adipiscing elit. Sed<br>
+  	    Bland, eros sit amet euismond tincidunt, nisl leo vestiulum dui, sed<br>
+  	    tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt<br>
+  	    Ex at, venenatis nisl.  </p>
 
-    <p style ="padding-left:25px"><em><strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet<br>
-  	urna vel diam blandit venenatis. Nam fermentum turpis a<br>
-    kauris condimentum, vitae faucibus leo commodo.</em></p>
+        <p style ="padding-left:25px"><em><strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet<br>
+  	    urna vel diam blandit venenatis. Nam fermentum turpis a<br>
+        kauris condimentum, vitae faucibus leo commodo.</em></p>
 
-    <p><strong>Vestibulum</strong> elit nisi, posture ut henderit a, molestie eu leo. Donec<br>
-	sit met ullamcorper turps. Mauris eu tellus bandiet turpis<br>
-	fermentum dapibus eget sed ex. Vivamus auctor in veilt ac suscipit.<br>
-	In has habitasse platea dictumst.
+        <p><strong>Vestibulum</strong> elit nisi, posture ut henderit a, molestie eu leo. Donec<br>
+	      sit met ullamcorper turps. Mauris eu tellus bandiet turpis<br>
+	      fermentum dapibus eget sed ex. Vivamus auctor in veilt ac suscipit.<br>
+	      In has habitasse platea dictumst.
+        </div> <!--end Text -->
 
-    <h2>TABLE</h2>
-    <table>
+    <div id="Table">
+      <h2>TABLE</h2>
 
-      <tr>
+      <table>
+        <tr>
         <th colspan="6">Scores by quarter</th>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td></td>
 
         <td>Team Name</td>
-        <td style="text-align:center"><strong>First<br>Q1</strong></td>
+        <td style="text-align:center"><strong>First Half<br>Q1</strong></td>
         <td style="text-align:center"><strong>Half<br>Q2</strong></td>
         <td style="text-align:center"><strong>Second<br>Q3</strong></td>
         <td style="text-align:center"><strong>Half<br>Q4</strong></td>
@@ -52,30 +54,30 @@
           <td style="text-align:center">17</td>
           </tr>
 
-          <tr>
-            <td></td>
+        <tr>
+          <td></td>
 
-            <td>Chicago</td>
-            <td style="text-align:center">0</td>
-            <td style="text-align:center">6</td>
-            <td style="text-align:center">3</td>
-            <td style="text-align:center">6</td>
-            <td style="text-align:center">15</td>
-            </tr>
+          <td>Chicago</td>
+          <td style="text-align:center">0</td>
+          <td style="text-align:center">6</td>
+          <td style="text-align:center">3</td>
+          <td style="text-align:center">6</td>
+          <td style="text-align:center">15</td>
+        </tr>
 
-            <tr>
-              <td></td>
-
-              <td><strong>Total</strong></td>
-              <td style="text-align:center"><strong>0</strong></td>
-              <td style="text-align:center"><strong>6</strong></td>
-              <td style="text-align:center"><strong>3</strong></td>
-              <td style="text-align:center"><strong>13</strong></td>
-              <td style="text-align:center"><strong>32</strong></td>
-              </tr>
+        <tr>
+          <td></td>
+          <td><strong>Total</strong></td>
+          <td style="text-align:center"><strong>0</strong></td>
+          <td style="text-align:center"><strong>6</strong></td>
+          <td style="text-align:center"><strong>3</strong></td>
+          <td style="text-align:center"><strong>13</strong></td>
+          <td style="text-align:center"><strong>32</strong></td>
+          </tr>
         </table>
+        </div> <!-- end Table -->
 
-
+        <div id="Bronocs List">
           <h2>LIST</h2>
           <ul>
             <li><img src="https://content.sportslogos.net/logos/7/161/thumbs/9ebzja2zfeigaziee8y605aqp.gif" alt="Denver Broncos" width="80"></li>
@@ -90,7 +92,9 @@
               </ol>
               </ul>
               </ul>
+            </div> <!-- end Broncos List -->
 
+            <div id="Bears List">
               <ul>
               <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg" alt="Da Bears" width="60"></li>
               <a href="https://www.chicagobears.com/">Chicago Bears</a>
@@ -104,7 +108,9 @@
                 </ol>
                 </ul>
                 </ul>
+              </div> <!-- end Bears List -->
 
+              <div id="Form">
                 <h2>FORM</h2>
                 <form action="SportsBall">
                 <p>First:  <input type="text" name="firstName"/>
@@ -125,12 +131,10 @@
                   <input type="radio" name="prefer" value="Amateur" /> Amateur
                   <input type="radio" name="prefer" value="College" /> College
                   <input type="radio" name="prefer" value="Professional" /> Professional<br>
+                  <input type="submit"/>
                 </select>
-                  <input type="Submit Query"/>
-
-                  </p>
-</form>
-
-
-  </body>
+                </p>
+              </form>
+              </div><!--end Form-->
+          </body>
 </html>
